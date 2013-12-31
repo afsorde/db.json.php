@@ -77,4 +77,8 @@ $.post('mysql.json.php', {
 `action` is the SQL method of the procedure
     `select` or `select>list` giving back a record list and have many options such az `group`, `order`, `where`, `limit`, `page`
 
+Parameter	Action	Usage	Description
+`where`			
+`set`			
+			
 
