@@ -46,7 +46,7 @@ Usage
 To Use this class easily you can use a javascript source code on client side or a php file in server side:
 
 
-**JavaScript/JQuery usage**
+***JavaScript/JQuery usage***
 
 Just posting an ayyar to server is enough for doing actions from a web client
 ```
@@ -70,7 +70,7 @@ $.post('mysql.json.php', {
 
 }, 'json');
 ```
-*parameters*
+**parameters**
 
 `table` is a table name or using `>` to create a LEFT JOIN ex.'table1>table2>table3`
 
