@@ -44,3 +44,37 @@ function php_db_class_security_accesslist($table, $action) {
 Usage
 ===========
 To Use this class easily you can use a javascript source code on client side or a php file in server side:
+
+
+**JavaScript/JQuery usage**
+
+Just posting an ayyar to server is enough for doing actions from a web client
+```
+$.post('mysql.json.php', {
+	params : {
+		1 : {
+			table : 'table1',
+			action : 'update',
+			set:{
+			    field1:12,
+			    field2:'newvalue'
+			},
+			where : {
+				status : {
+					eq : 'active'
+				}
+			}
+		}
+	}
+}, function(data) {
+
+}, 'json');
+```
+*parameters*
+
+`table` is a table name or using `>` to create a LEFT JOIN ex.'table1>table2>table3`
+
+`action` is the SQL method of the procedure
+    `select` or `select>list` giving back a record list and have many options such az `group`, `order`, `where`, `limit`, `page`
+
+
