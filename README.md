@@ -72,7 +72,7 @@ $.post('mysql.json.php', {
 ```
 **parameters**
 
-`table` is a table name or using `>` to create a LEFT JOIN ex.'table1>table2>table3`
+`table` is a table name or using `>` to create a LEFT JOIN ex.`table1>table2>table3`
 
 `action` is the SQL method of the procedure
     `select` or `select>list` giving back a record list and have many options such az `group`, `order`, `where`, `limit`, `page`
