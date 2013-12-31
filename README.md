@@ -20,8 +20,11 @@ define("PHP_DB_PASSWORD", "password", true);
 ```
 
 `PHP_DB_HOST` Database host name ex. localhost or 20.99.48.12
+
 `PHP_DB_NAME` Database name ex. mydb
+
 `PHP_DB_USER` Database username ex. root
+
 `PHP_DB_PASSWORD` Database password ex. password of root uasername
 
 
