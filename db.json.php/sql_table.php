@@ -51,11 +51,11 @@ function create_db_list_cond($list_cond, $glue = 'and') {
 	return '(' . implode(" $glue ", $ret_arr) . ')';
 }
 
-class php_db_table {
+class sql_table {
 	var $db = false;
 	var $name = '';
 
-	function php_db_table($name, $db) {
+	function sql_table($name, $db) {
 		$this -> db = $db;
 		$this -> name = $name;
 
